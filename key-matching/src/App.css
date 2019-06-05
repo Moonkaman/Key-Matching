@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.game-display {
+  padding: 30px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-body {
+  max-height: 800px;
+  overflow: auto;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-footer p {
+  margin: 0px;
+}
+
+/* .table-cont {
+  padding-top: 49px;
+  position: relative;
+}
+
+.table-header {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.thead {
+  width: 100%;
+} */
